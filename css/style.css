@@ -2,24 +2,48 @@ html {
   height: 100%;
   width: 100%;
 }
+
 img {
   width: 200px;
 }
+
 body {
   text-align: center;
+  list-style-type: none;
   font-family: 'Courier New';
   color: Chartreuse;
 }
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+  list-style-type: none;
+}
+
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
 
 [data-tab-content] {
   display: none;
 }
 
-.active[data-tab-content]{
+.active[data-tab-content] {
   display: block;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
